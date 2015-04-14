@@ -1,0 +1,25 @@
+{
+  "name": "UIAlertController-BetterConstructor",
+  "version": "0.1.0",
+  "summary": "A short description of UIAlertController-BetterConstructor.",
+  "description": "                       An optional longer description of UIAlertController-BetterConstructor\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/UIAlertController-BetterConstructor",
+  "license": "MIT",
+  "authors": {
+    "Daniel Blakemore": "DanBlakemore@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/UIAlertController-BetterConstructor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "UIAlertController-BetterConstructor": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

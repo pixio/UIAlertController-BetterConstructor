@@ -1,38 +1,22 @@
-#
-# Be sure to run `pod lib lint UIAlertController-BetterConstructor.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "UIAlertController-BetterConstructor"
   s.version          = "0.1.0"
-  s.summary          = "A short description of UIAlertController-BetterConstructor."
+  s.summary          = "A better constructor for UIAlertController."
   s.description      = <<-DESC
-                       An optional longer description of UIAlertController-BetterConstructor
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A category on UIAlertController which provdes a constructor that takes title strings and button blocks for arbitrary alerts and sheets.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/UIAlertController-BetterConstructor"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://git.pixio.com/"
   s.license          = 'MIT'
   s.author           = { "Daniel Blakemore" => "DanBlakemore@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/UIAlertController-BetterConstructor.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source = {
+    :git => "git@git.pixio.com:ios-pods/uialertcontroller-betterconstructor.git",
+    :tag => s.version.to_s
+  }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'UIAlertController-BetterConstructor' => ['Pod/Assets/*.png']
-  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
 end
