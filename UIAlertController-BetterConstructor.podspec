@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UIAlertController-BetterConstructor"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A better constructor for UIAlertController."
   s.description      = <<-DESC
                        A category on UIAlertController which provdes a constructor that takes title strings and button blocks for arbitrary alerts and sheets.
