@@ -24,9 +24,9 @@ into this:
 
 ```objective-c
 UIAlertController * ac = [UIAlertController alertControllerWithTitle:@"Easy" message:@"One method. That's all." style:UIAlertControllerStyleAlert cancelButtonTitle:@"Something Else" cancelButtonBlock:^(UIAlertAction *action) {
-        NSLog(@"Do something else.");
+    NSLog(@"Do something else.");
 } destructiveButtonTitle:nil destructiveButtonBlock:nil otherButtonTitlesAndBlocks:@"Something", ^(UIAlertAction *action) {
-        NSLog(@"Do something.");
+    NSLog(@"Do something.");
 }, nil];
 [self presentViewController:ac animated:true completion:^{
     
