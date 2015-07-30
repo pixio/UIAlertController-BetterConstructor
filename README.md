@@ -9,12 +9,14 @@ Turn this:
 
 ```objective-c
 UIAlertController * ac = [UIAlertController alertControllerWithTitle:@"Not Nice" message:@"So many declarations and lines of code. Why do I have to remember all these types?" preferredStyle:UIAlertControllerStyleAlert];
-[ac addAction:[UIAlertAction actionWithTitle:@"Something Else" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+UIAlertActon * cancelAction = [UIAlertAction actionWithTitle:@"Something Else" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
     NSLog(@"Do something else.");
-}]];
-[ac addAction:[UIAlertAction actionWithTitle:@"Something" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+}];
+[ac addAction:defaultAction];
+UIAlertActon * cancelAction = [UIAlertAction actionWithTitle:@"Something" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
     NSLog(@"Do something.");
-}]];
+}]
+[ac addAction:defaultAction];
 [self presentViewController:ac animated:true completion:^{
     
 }];

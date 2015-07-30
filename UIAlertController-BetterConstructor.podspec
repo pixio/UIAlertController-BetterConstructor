@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Daniel Blakemore" => "DanBlakemore@gmail.com" }
   s.source = {
-    :git => "git@github.com:pixio/UIAlertController-BetterConstructor.git",
+    :git => "https://github.com/pixio/UIAlertController-BetterConstructor.git",
     :tag => s.version.to_s
   }
 
