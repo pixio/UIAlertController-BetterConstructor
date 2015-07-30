@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        A category on UIAlertController which provdes a constructor that takes title strings and button blocks for arbitrary alerts and sheets.
                        DESC
-  s.homepage         = "https://git.pixio.com/"
+  s.homepage         = "https://github.com/pixio/UIAlertController-BetterConstructor"
   s.license          = 'MIT'
   s.author           = { "Daniel Blakemore" => "DanBlakemore@gmail.com" }
   s.source = {
-    :git => "git@git.pixio.com:ios-pods/uialertcontroller-betterconstructor.git",
+    :git => "git@github.com:pixio/UIAlertController-BetterConstructor.git",
     :tag => s.version.to_s
   }
 
