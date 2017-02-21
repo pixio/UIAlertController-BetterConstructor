@@ -7,608 +7,471 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09D703A84E3D6BFF9E5F4207 /* UIAlertController+BetterConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D2BB6205D13D83465A866 /* UIAlertController+BetterConstructor.m */; };
-		0D8B693DCA8E56229B38E28A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F38E61961BA11D120D3C699 /* Foundation.framework */; };
-		1A03151128F5E9DE88B97613 /* UIAlertController+BetterConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0182C279090901A8629A14A0 /* UIAlertController+BetterConstructor.h */; };
-		5AA490E7C4C293D40CCCB6F1 /* UIAlertController+BetterConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0182C279090901A8629A14A0 /* UIAlertController+BetterConstructor.h */; };
-		6B49C75AFEA6EC04D11B5038 /* Pods-UIAlertController-BetterConstructor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE517ED59831F28D8DF572BC /* Pods-UIAlertController-BetterConstructor-dummy.m */; };
-		7B0A66D972A09200499C36B3 /* Pods-Tests-UIAlertController-BetterConstructor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CF3DA9697D3D49AC001032 /* Pods-Tests-UIAlertController-BetterConstructor-dummy.m */; };
-		880B556A10D9C06A18954170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F38E61961BA11D120D3C699 /* Foundation.framework */; };
-		8AAFCBDDC0CE437E82ECE8B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F38E61961BA11D120D3C699 /* Foundation.framework */; };
-		AE45A18A48A4D861D8055AA0 /* UIAlertController+BetterConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D2BB6205D13D83465A866 /* UIAlertController+BetterConstructor.m */; };
-		D03A266884BD6B1D3FDC7D05 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F1458B4DC44D382FE8E47F /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-dummy.m */; };
-		DF5D316311B58AE4B7C29C52 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616FDE41CD3BE8E2C96B7033 /* Pods-Tests-dummy.m */; };
-		F06B87C64AD4692FAFF6BE5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F38E61961BA11D120D3C699 /* Foundation.framework */; };
+		0D079206E7401382D2430D87DF7DF5D7 /* Pods-UIAlertController-BetterConstructor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B521C4E9A587F2C1FB296E37316BE /* Pods-UIAlertController-BetterConstructor-dummy.m */; };
+		21FB2BDE06661F6419204EB6AAA9DF9F /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DFF97C66026BEFD88EF0DABB04053D /* Pods-Tests-dummy.m */; };
+		61BD6543F8D57D81295EF167FFD11638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		84BAF019F38E0EE616DA39B96BAF8A1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		A98B30D8703E989E5E0E25789CA4A4CA /* UIAlertController+BetterConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = D9378A7BA23CB4BB1B21352DEDC05F9A /* UIAlertController+BetterConstructor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA446F9E348F95D63954A8A18E732E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E08D62276B6570F2749D66290A82706D /* UIAlertController+BetterConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = B50D60585745DA799406E4A3994A763E /* UIAlertController+BetterConstructor.m */; };
+		ED1AC1D3E248F1C40A6CAF00D7F43800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F78D8421EA5838379A23994487D4549B /* UIAlertController-BetterConstructor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A78E675111C7976CEBA5EC39A5EAEFF /* UIAlertController-BetterConstructor-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F7D8DDDBC77FD641F6F56CA /* PBXContainerItemProxy */ = {
+		7AD15676AB13CC67BBE638C2481273D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 96FE443A06E1DD0049F47985 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EC0395D8141A611726ADD3B0;
-			remoteInfo = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
+			remoteGlobalIDString = 8968DE6A8A3A7CFA7EFE769164C96A94;
+			remoteInfo = "UIAlertController-BetterConstructor";
 		};
-		5E955DFE1E8B9A5184397C73 /* PBXContainerItemProxy */ = {
+		8A63BC5A64BE5CD77770006B5F5AB690 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 96FE443A06E1DD0049F47985 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 08375711B67C4FB945861C00;
-			remoteInfo = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-		};
-		D7A99199AACE097052A7AFC5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96FE443A06E1DD0049F47985 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BBE6D37D1D8D3DBB80E6ACAC;
-			remoteInfo = "Pods-Tests-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-		};
-		EEE6E41B1E3FECEC339CE746 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96FE443A06E1DD0049F47985 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 339391532E195772E19F9FE8;
-			remoteInfo = "Pods-Tests-UIAlertController-BetterConstructor";
+			remoteGlobalIDString = 8968DE6A8A3A7CFA7EFE769164C96A94;
+			remoteInfo = "UIAlertController-BetterConstructor";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0182C279090901A8629A14A0 /* UIAlertController+BetterConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+BetterConstructor.h"; sourceTree = "<group>"; };
-		02A5A856D2272F1E588F48BE /* Pods-UIAlertController-BetterConstructor-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIAlertController-BetterConstructor-environment.h"; sourceTree = "<group>"; };
-		0EECCCFD84E8259A004726A3 /* Pods-Tests-UIAlertController-BetterConstructor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UIAlertController-BetterConstructor.xcconfig"; sourceTree = "<group>"; };
-		223720DD2D5932E7AB6B7BD2 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		286D2BB6205D13D83465A866 /* UIAlertController+BetterConstructor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+BetterConstructor.m"; sourceTree = "<group>"; };
-		298FA2B57D79A827F58CB9F0 /* libPods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FE5BA61A995CD7F88B270B7 /* Pods-UIAlertController-BetterConstructor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIAlertController-BetterConstructor.release.xcconfig"; sourceTree = "<group>"; };
-		310CBC36EED9D282EDC4F715 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		454DE0372A928FA15F5E21A7 /* Pods-UIAlertController-BetterConstructor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIAlertController-BetterConstructor.debug.xcconfig"; sourceTree = "<group>"; };
-		56332AB242B3DEAB7162B0A3 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		616FDE41CD3BE8E2C96B7033 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		63F1458B4DC44D382FE8E47F /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-dummy.m"; path = "../Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor/Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-dummy.m"; sourceTree = "<group>"; };
-		68CF3DA9697D3D49AC001032 /* Pods-Tests-UIAlertController-BetterConstructor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-UIAlertController-BetterConstructor-dummy.m"; sourceTree = "<group>"; };
-		7A37EBCA116F6D15ABDC6002 /* UIAlertController-BetterConstructor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIAlertController-BetterConstructor.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B750E3FBE8CC1DD21B3A8D0 /* libPods-Tests-UIAlertController-BetterConstructor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-UIAlertController-BetterConstructor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F38E61961BA11D120D3C699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7FCBC15ED01D7BDF2C09084E /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		8597C1D5C7B79D0D58D36008 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor.xcconfig"; path = "../Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor/Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor.xcconfig"; sourceTree = "<group>"; };
-		875D72800334F3832E195791 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		91122A76A6F4637AFF7CFAAB /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9F0C9F38B6BED89567D21D49 /* Pods-Tests-UIAlertController-BetterConstructor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UIAlertController-BetterConstructor-Private.xcconfig"; sourceTree = "<group>"; };
-		A16549D27A9A0B3300CF038F /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A725092835315E7FACC1C4F1 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-Private.xcconfig"; path = "../Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor/Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-Private.xcconfig"; sourceTree = "<group>"; };
-		AC9147C346C117C6A15B5896 /* Pods-UIAlertController-BetterConstructor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIAlertController-BetterConstructor-resources.sh"; sourceTree = "<group>"; };
-		BC0DD0BA37A22D8F1DFB36EE /* Pods-Tests-UIAlertController-BetterConstructor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-UIAlertController-BetterConstructor-prefix.pch"; sourceTree = "<group>"; };
-		BFE8E2E28BF35F92EDBC7680 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-prefix.pch"; path = "../Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor/Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-prefix.pch"; sourceTree = "<group>"; };
-		C8C96B746712B2E5DA5CDA6D /* libPods-UIAlertController-BetterConstructor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIAlertController-BetterConstructor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9561794F321FB80838B3F34 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA4F999BBD8B483950CAC10B /* UIAlertController-BetterConstructor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIAlertController-BetterConstructor.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E653AC4203FA8F2E7AB6CDB1 /* Pods-UIAlertController-BetterConstructor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIAlertController-BetterConstructor-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE517ED59831F28D8DF572BC /* Pods-UIAlertController-BetterConstructor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIAlertController-BetterConstructor-dummy.m"; sourceTree = "<group>"; };
-		EF6DED2C97C8E22FFEA375CD /* Pods-UIAlertController-BetterConstructor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIAlertController-BetterConstructor-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C9C8075998D9F642F19EBDF3A163DA8 /* Pods-UIAlertController-BetterConstructor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIAlertController-BetterConstructor.debug.xcconfig"; sourceTree = "<group>"; };
+		3D708506F32BE882F8FEBF4A2267D04A /* UIAlertController-BetterConstructor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIAlertController-BetterConstructor.xcconfig"; sourceTree = "<group>"; };
+		45AAAE4E93C3A2F6595E85D0F4B1F078 /* Pods-UIAlertController-BetterConstructor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIAlertController-BetterConstructor-acknowledgements.plist"; sourceTree = "<group>"; };
+		48DDD252CCDE3BBC0E9101DB8837592E /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEDC756356B78616F57FDA132CA87B6 /* libPods-UIAlertController-BetterConstructor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIAlertController-BetterConstructor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEC97C4DF7FB483531EBD82E63CCBD4 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5F1B521C4E9A587F2C1FB296E37316BE /* Pods-UIAlertController-BetterConstructor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIAlertController-BetterConstructor-dummy.m"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62CC4FEC7F4B9D0B41144F682850F686 /* Pods-UIAlertController-BetterConstructor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIAlertController-BetterConstructor.release.xcconfig"; sourceTree = "<group>"; };
+		6ADF0F1DAA9082390C86DC9247D1C820 /* libUIAlertController-BetterConstructor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIAlertController-BetterConstructor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A78E675111C7976CEBA5EC39A5EAEFF /* UIAlertController-BetterConstructor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController-BetterConstructor-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A19D0C24972B637E849D99193699F43 /* Pods-UIAlertController-BetterConstructor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIAlertController-BetterConstructor-resources.sh"; sourceTree = "<group>"; };
+		A555D8C69134AA83C46C0DAD70420823 /* Pods-UIAlertController-BetterConstructor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIAlertController-BetterConstructor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9DFF97C66026BEFD88EF0DABB04053D /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		B04D1FD9658F90B6F68C23808E3155E5 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B50D60585745DA799406E4A3994A763E /* UIAlertController+BetterConstructor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+BetterConstructor.m"; sourceTree = "<group>"; };
+		B9C8971560D47172EBBF8C25B54BF769 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDD321FC37872F24180D9730880D7732 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9378A7BA23CB4BB1B21352DEDC05F9A /* UIAlertController+BetterConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+BetterConstructor.h"; sourceTree = "<group>"; };
+		EC7BEBE1FA98DAF1BD38D3AE6489D99F /* Pods-UIAlertController-BetterConstructor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIAlertController-BetterConstructor-frameworks.sh"; sourceTree = "<group>"; };
+		FAF048776B43F38A82FC4DF595FC2336 /* UIAlertController-BetterConstructor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController-BetterConstructor-prefix.pch"; sourceTree = "<group>"; };
+		FB36C35E68DFD66B4DE3380A673EB454 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		FBF47ACABF116B83DBC18C45792423A4 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21EA1E0A0F2540051DEFFDA0 /* Frameworks */ = {
+		128DEE77978A2BC60AE369D2E82844A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D8B693DCA8E56229B38E28A /* Foundation.framework in Frameworks */,
+				ED1AC1D3E248F1C40A6CAF00D7F43800 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6715BD0E816637F2F19801C6 /* Frameworks */ = {
+		4AACCBFDD34A646E9A6F5E3CEAD92455 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F06B87C64AD4692FAFF6BE5F /* Foundation.framework in Frameworks */,
+				BA446F9E348F95D63954A8A18E732E77 /* Foundation.framework in Frameworks */,
+				84BAF019F38E0EE616DA39B96BAF8A1F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83AF160D6E1D269F7D9B9F7D /* Frameworks */ = {
+		FFB5B3669ABDB949E8CF2E02778A1F90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D246974F7317D7D7D7FE3C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A645E18E3C6905088FADFEA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AAFCBDDC0CE437E82ECE8B5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B446F3410C02A1F3A7342CE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				880B556A10D9C06A18954170 /* Foundation.framework in Frameworks */,
+				61BD6543F8D57D81295EF167FFD11638 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15B75D9474F8C5082D8B6A55 = {
+		2DA21FB7697B9730956A84DA205BBB0A /* UIAlertController-BetterConstructor */ = {
 			isa = PBXGroup;
 			children = (
-				310CBC36EED9D282EDC4F715 /* Podfile */,
-				CF74DB2D32CBED5B1224DB52 /* Development Pods */,
-				9B83AA696AB68676EE34ADCC /* Frameworks */,
-				BBA90D99C34ABE81692DC044 /* Products */,
-				55BFC660EACC84ED70D987B3 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		457B0714945D71EE3358CD17 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0EECCCFD84E8259A004726A3 /* Pods-Tests-UIAlertController-BetterConstructor.xcconfig */,
-				9F0C9F38B6BED89567D21D49 /* Pods-Tests-UIAlertController-BetterConstructor-Private.xcconfig */,
-				68CF3DA9697D3D49AC001032 /* Pods-Tests-UIAlertController-BetterConstructor-dummy.m */,
-				BC0DD0BA37A22D8F1DFB36EE /* Pods-Tests-UIAlertController-BetterConstructor-prefix.pch */,
-				8597C1D5C7B79D0D58D36008 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor.xcconfig */,
-				A725092835315E7FACC1C4F1 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-Private.xcconfig */,
-				63F1458B4DC44D382FE8E47F /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-dummy.m */,
-				BFE8E2E28BF35F92EDBC7680 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-Tests-UIAlertController-BetterConstructor";
-			sourceTree = "<group>";
-		};
-		55BFC660EACC84ED70D987B3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EDD16F8140214B44955AC4D8 /* Pods-Tests */,
-				5C177D2BBB8DCBCFD254396D /* Pods-UIAlertController-BetterConstructor */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5C177D2BBB8DCBCFD254396D /* Pods-UIAlertController-BetterConstructor */ = {
-			isa = PBXGroup;
-			children = (
-				E653AC4203FA8F2E7AB6CDB1 /* Pods-UIAlertController-BetterConstructor-acknowledgements.markdown */,
-				EF6DED2C97C8E22FFEA375CD /* Pods-UIAlertController-BetterConstructor-acknowledgements.plist */,
-				EE517ED59831F28D8DF572BC /* Pods-UIAlertController-BetterConstructor-dummy.m */,
-				02A5A856D2272F1E588F48BE /* Pods-UIAlertController-BetterConstructor-environment.h */,
-				AC9147C346C117C6A15B5896 /* Pods-UIAlertController-BetterConstructor-resources.sh */,
-				454DE0372A928FA15F5E21A7 /* Pods-UIAlertController-BetterConstructor.debug.xcconfig */,
-				2FE5BA61A995CD7F88B270B7 /* Pods-UIAlertController-BetterConstructor.release.xcconfig */,
-			);
-			name = "Pods-UIAlertController-BetterConstructor";
-			path = "Target Support Files/Pods-UIAlertController-BetterConstructor";
-			sourceTree = "<group>";
-		};
-		93D9C77D16ED0A75E1591A31 /* UIAlertController-BetterConstructor */ = {
-			isa = PBXGroup;
-			children = (
-				CA4B60127D6FB1A29C091DC7 /* Pod */,
-				457B0714945D71EE3358CD17 /* Support Files */,
+				937723B3A3C37C12CA3851E13DBD5113 /* Pod */,
+				4405EE0EA7BDC59772411AEDF95AECD3 /* Support Files */,
 			);
 			name = "UIAlertController-BetterConstructor";
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		9B83AA696AB68676EE34ADCC /* Frameworks */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0B464F11A0C8339DC9B74F3 /* iOS */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BBA90D99C34ABE81692DC044 /* Products */ = {
+		4405EE0EA7BDC59772411AEDF95AECD3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A37EBCA116F6D15ABDC6002 /* UIAlertController-BetterConstructor.bundle */,
-				DA4F999BBD8B483950CAC10B /* UIAlertController-BetterConstructor.bundle */,
-				223720DD2D5932E7AB6B7BD2 /* libPods-Tests.a */,
-				7B750E3FBE8CC1DD21B3A8D0 /* libPods-Tests-UIAlertController-BetterConstructor.a */,
-				C8C96B746712B2E5DA5CDA6D /* libPods-UIAlertController-BetterConstructor.a */,
-				298FA2B57D79A827F58CB9F0 /* libPods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor.a */,
+				3D708506F32BE882F8FEBF4A2267D04A /* UIAlertController-BetterConstructor.xcconfig */,
+				8A78E675111C7976CEBA5EC39A5EAEFF /* UIAlertController-BetterConstructor-dummy.m */,
+				FAF048776B43F38A82FC4DF595FC2336 /* UIAlertController-BetterConstructor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIAlertController-BetterConstructor";
+			sourceTree = "<group>";
+		};
+		7908AA2D018DE83C8761EFED28129B29 /* Pods-UIAlertController-BetterConstructor */ = {
+			isa = PBXGroup;
+			children = (
+				A555D8C69134AA83C46C0DAD70420823 /* Pods-UIAlertController-BetterConstructor-acknowledgements.markdown */,
+				45AAAE4E93C3A2F6595E85D0F4B1F078 /* Pods-UIAlertController-BetterConstructor-acknowledgements.plist */,
+				5F1B521C4E9A587F2C1FB296E37316BE /* Pods-UIAlertController-BetterConstructor-dummy.m */,
+				EC7BEBE1FA98DAF1BD38D3AE6489D99F /* Pods-UIAlertController-BetterConstructor-frameworks.sh */,
+				9A19D0C24972B637E849D99193699F43 /* Pods-UIAlertController-BetterConstructor-resources.sh */,
+				2C9C8075998D9F642F19EBDF3A163DA8 /* Pods-UIAlertController-BetterConstructor.debug.xcconfig */,
+				62CC4FEC7F4B9D0B41144F682850F686 /* Pods-UIAlertController-BetterConstructor.release.xcconfig */,
+			);
+			name = "Pods-UIAlertController-BetterConstructor";
+			path = "Target Support Files/Pods-UIAlertController-BetterConstructor";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DFF47D8D54D774231DDD82D1ADD70532 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				879817F8FF1D7AFD21D1036382D475FD /* Products */,
+				EEA9241B97CC6E182A55B7279B73FB23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		879817F8FF1D7AFD21D1036382D475FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48DDD252CCDE3BBC0E9101DB8837592E /* libPods-Tests.a */,
+				4AEDC756356B78616F57FDA132CA87B6 /* libPods-UIAlertController-BetterConstructor.a */,
+				6ADF0F1DAA9082390C86DC9247D1C820 /* libUIAlertController-BetterConstructor.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C1556072DBFA95E959D57BA9 /* Classes */ = {
+		8F273872F751DEC128B86D7AE317EF4B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0182C279090901A8629A14A0 /* UIAlertController+BetterConstructor.h */,
-				286D2BB6205D13D83465A866 /* UIAlertController+BetterConstructor.m */,
+				D9378A7BA23CB4BB1B21352DEDC05F9A /* UIAlertController+BetterConstructor.h */,
+				B50D60585745DA799406E4A3994A763E /* UIAlertController+BetterConstructor.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		CA4B60127D6FB1A29C091DC7 /* Pod */ = {
+		937723B3A3C37C12CA3851E13DBD5113 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C1556072DBFA95E959D57BA9 /* Classes */,
+				8F273872F751DEC128B86D7AE317EF4B /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		CF74DB2D32CBED5B1224DB52 /* Development Pods */ = {
+		BE62C36B0BADCE6EF876637094DCC48B /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				93D9C77D16ED0A75E1591A31 /* UIAlertController-BetterConstructor */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		EDD16F8140214B44955AC4D8 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				56332AB242B3DEAB7162B0A3 /* Pods-Tests-acknowledgements.markdown */,
-				A16549D27A9A0B3300CF038F /* Pods-Tests-acknowledgements.plist */,
-				616FDE41CD3BE8E2C96B7033 /* Pods-Tests-dummy.m */,
-				875D72800334F3832E195791 /* Pods-Tests-environment.h */,
-				7FCBC15ED01D7BDF2C09084E /* Pods-Tests-resources.sh */,
-				D9561794F321FB80838B3F34 /* Pods-Tests.debug.xcconfig */,
-				91122A76A6F4637AFF7CFAAB /* Pods-Tests.release.xcconfig */,
+				FBF47ACABF116B83DBC18C45792423A4 /* Pods-Tests-acknowledgements.markdown */,
+				B9C8971560D47172EBBF8C25B54BF769 /* Pods-Tests-acknowledgements.plist */,
+				A9DFF97C66026BEFD88EF0DABB04053D /* Pods-Tests-dummy.m */,
+				5DEC97C4DF7FB483531EBD82E63CCBD4 /* Pods-Tests-frameworks.sh */,
+				FB36C35E68DFD66B4DE3380A673EB454 /* Pods-Tests-resources.sh */,
+				CDD321FC37872F24180D9730880D7732 /* Pods-Tests.debug.xcconfig */,
+				B04D1FD9658F90B6F68C23808E3155E5 /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		F0B464F11A0C8339DC9B74F3 /* iOS */ = {
+		DFF47D8D54D774231DDD82D1ADD70532 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7F38E61961BA11D120D3C699 /* Foundation.framework */,
+				2DA21FB7697B9730956A84DA205BBB0A /* UIAlertController-BetterConstructor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		EEA9241B97CC6E182A55B7279B73FB23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE62C36B0BADCE6EF876637094DCC48B /* Pods-Tests */,
+				7908AA2D018DE83C8761EFED28129B29 /* Pods-UIAlertController-BetterConstructor */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DB774656617CCD69A660892 /* Headers */ = {
+		F1864D426936DE6B4C0E7976413D10A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A03151128F5E9DE88B97613 /* UIAlertController+BetterConstructor.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60BAA76E0DDF8DD8FD394172 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AA490E7C4C293D40CCCB6F1 /* UIAlertController+BetterConstructor.h in Headers */,
+				A98B30D8703E989E5E0E25789CA4A4CA /* UIAlertController+BetterConstructor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08375711B67C4FB945861C00 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor */ = {
+		0ACF4230D071A95BEF26EA7A46D221D0 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 655D54169D7B9EBC31A19EC2 /* Build configuration list for PBXNativeTarget "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor" */;
+			buildConfigurationList = E1E44AC084A5FEFCFB932574A94558D3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				FCB8968C3C01ACAB3F76BD9C /* Sources */,
-				6715BD0E816637F2F19801C6 /* Frameworks */,
-				60BAA76E0DDF8DD8FD394172 /* Headers */,
+				B11FC0866BA56D56878EF6C4679821F6 /* Sources */,
+				128DEE77978A2BC60AE369D2E82844A9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				89897BE3C13ABFB32D8D19C6 /* PBXTargetDependency */,
-			);
-			name = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-			productName = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-			productReference = 298FA2B57D79A827F58CB9F0 /* libPods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		213B73CAA14F7708C6064745 /* Pods-UIAlertController-BetterConstructor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5CB4EDD3EE3BA347BBC73DE /* Build configuration list for PBXNativeTarget "Pods-UIAlertController-BetterConstructor" */;
-			buildPhases = (
-				E87C1E2E2D275A075707FCF8 /* Sources */,
-				B446F3410C02A1F3A7342CE1 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D12D6203607EB5AF563C93C0 /* PBXTargetDependency */,
-			);
-			name = "Pods-UIAlertController-BetterConstructor";
-			productName = "Pods-UIAlertController-BetterConstructor";
-			productReference = C8C96B746712B2E5DA5CDA6D /* libPods-UIAlertController-BetterConstructor.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		270BE910C38AFC1B8F893FFE /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CE84CAD88F04BFB0791BF41 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				1B161F2AA3417C339D61080A /* Sources */,
-				21EA1E0A0F2540051DEFFDA0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				468F9B7A898674B024D7B21F /* PBXTargetDependency */,
+				93F3513175796AF1A25D2A029C69C364 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = 223720DD2D5932E7AB6B7BD2 /* libPods-Tests.a */;
+			productReference = 48DDD252CCDE3BBC0E9101DB8837592E /* libPods-Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		339391532E195772E19F9FE8 /* Pods-Tests-UIAlertController-BetterConstructor */ = {
+		8968DE6A8A3A7CFA7EFE769164C96A94 /* UIAlertController-BetterConstructor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90E45DF72A8014556B42BB04 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIAlertController-BetterConstructor" */;
+			buildConfigurationList = 74E8CB4FE4FBFA0C71108CD3A8163337 /* Build configuration list for PBXNativeTarget "UIAlertController-BetterConstructor" */;
 			buildPhases = (
-				58370F153ECE2D925B7B05B3 /* Sources */,
-				A645E18E3C6905088FADFEA2 /* Frameworks */,
-				0DB774656617CCD69A660892 /* Headers */,
+				21C3BEB6B54CDF30C46499149662B8D6 /* Sources */,
+				4AACCBFDD34A646E9A6F5E3CEAD92455 /* Frameworks */,
+				F1864D426936DE6B4C0E7976413D10A3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9CF78BA596008B499363E65D /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-UIAlertController-BetterConstructor";
-			productName = "Pods-Tests-UIAlertController-BetterConstructor";
-			productReference = 7B750E3FBE8CC1DD21B3A8D0 /* libPods-Tests-UIAlertController-BetterConstructor.a */;
+			name = "UIAlertController-BetterConstructor";
+			productName = "UIAlertController-BetterConstructor";
+			productReference = 6ADF0F1DAA9082390C86DC9247D1C820 /* libUIAlertController-BetterConstructor.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BBE6D37D1D8D3DBB80E6ACAC /* Pods-Tests-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor */ = {
+		EE2A627BC7BADC4C92EF2A35968838FC /* Pods-UIAlertController-BetterConstructor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70B38389C003E96CC5600E02 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor" */;
+			buildConfigurationList = 72E4DECF52032A693EB15185986569B4 /* Build configuration list for PBXNativeTarget "Pods-UIAlertController-BetterConstructor" */;
 			buildPhases = (
-				5203962EC1140302D0459ED6 /* Sources */,
-				83AF160D6E1D269F7D9B9F7D /* Frameworks */,
-				7A14C8DDE759E059FE3E65D8 /* Resources */,
+				CDD877E08AE99F256C9552ADBCBE9F00 /* Sources */,
+				FFB5B3669ABDB949E8CF2E02778A1F90 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2736696050901599F144A9B2EB03B7A2 /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-			productName = "Pods-Tests-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-			productReference = DA4F999BBD8B483950CAC10B /* UIAlertController-BetterConstructor.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		EC0395D8141A611726ADD3B0 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 213F0156F8849EAFD74FF76D /* Build configuration list for PBXNativeTarget "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor" */;
-			buildPhases = (
-				AB0850728D84B71902A0D1D1 /* Sources */,
-				9D246974F7317D7D7D7FE3C8 /* Frameworks */,
-				BDD899C2D81F89A9BD21D5BC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-			productName = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-			productReference = 7A37EBCA116F6D15ABDC6002 /* UIAlertController-BetterConstructor.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "Pods-UIAlertController-BetterConstructor";
+			productName = "Pods-UIAlertController-BetterConstructor";
+			productReference = 4AEDC756356B78616F57FDA132CA87B6 /* libPods-UIAlertController-BetterConstructor.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		96FE443A06E1DD0049F47985 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
 			};
-			buildConfigurationList = E96495C4CDFF47B638328C1D /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 15B75D9474F8C5082D8B6A55;
-			productRefGroup = BBA90D99C34ABE81692DC044 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 879817F8FF1D7AFD21D1036382D475FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				270BE910C38AFC1B8F893FFE /* Pods-Tests */,
-				339391532E195772E19F9FE8 /* Pods-Tests-UIAlertController-BetterConstructor */,
-				BBE6D37D1D8D3DBB80E6ACAC /* Pods-Tests-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor */,
-				213B73CAA14F7708C6064745 /* Pods-UIAlertController-BetterConstructor */,
-				08375711B67C4FB945861C00 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor */,
-				EC0395D8141A611726ADD3B0 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor */,
+				0ACF4230D071A95BEF26EA7A46D221D0 /* Pods-Tests */,
+				EE2A627BC7BADC4C92EF2A35968838FC /* Pods-UIAlertController-BetterConstructor */,
+				8968DE6A8A3A7CFA7EFE769164C96A94 /* UIAlertController-BetterConstructor */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		7A14C8DDE759E059FE3E65D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDD899C2D81F89A9BD21D5BC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		1B161F2AA3417C339D61080A /* Sources */ = {
+		21C3BEB6B54CDF30C46499149662B8D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF5D316311B58AE4B7C29C52 /* Pods-Tests-dummy.m in Sources */,
+				E08D62276B6570F2749D66290A82706D /* UIAlertController+BetterConstructor.m in Sources */,
+				F78D8421EA5838379A23994487D4549B /* UIAlertController-BetterConstructor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5203962EC1140302D0459ED6 /* Sources */ = {
+		B11FC0866BA56D56878EF6C4679821F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FB2BDE06661F6419204EB6AAA9DF9F /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58370F153ECE2D925B7B05B3 /* Sources */ = {
+		CDD877E08AE99F256C9552ADBCBE9F00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0A66D972A09200499C36B3 /* Pods-Tests-UIAlertController-BetterConstructor-dummy.m in Sources */,
-				09D703A84E3D6BFF9E5F4207 /* UIAlertController+BetterConstructor.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB0850728D84B71902A0D1D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E87C1E2E2D275A075707FCF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B49C75AFEA6EC04D11B5038 /* Pods-UIAlertController-BetterConstructor-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCB8968C3C01ACAB3F76BD9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D03A266884BD6B1D3FDC7D05 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-dummy.m in Sources */,
-				AE45A18A48A4D861D8055AA0 /* UIAlertController+BetterConstructor.m in Sources */,
+				0D079206E7401382D2430D87DF7DF5D7 /* Pods-UIAlertController-BetterConstructor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		468F9B7A898674B024D7B21F /* PBXTargetDependency */ = {
+		2736696050901599F144A9B2EB03B7A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-UIAlertController-BetterConstructor";
-			target = 339391532E195772E19F9FE8 /* Pods-Tests-UIAlertController-BetterConstructor */;
-			targetProxy = EEE6E41B1E3FECEC339CE746 /* PBXContainerItemProxy */;
+			name = "UIAlertController-BetterConstructor";
+			target = 8968DE6A8A3A7CFA7EFE769164C96A94 /* UIAlertController-BetterConstructor */;
+			targetProxy = 8A63BC5A64BE5CD77770006B5F5AB690 /* PBXContainerItemProxy */;
 		};
-		89897BE3C13ABFB32D8D19C6 /* PBXTargetDependency */ = {
+		93F3513175796AF1A25D2A029C69C364 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-			target = EC0395D8141A611726ADD3B0 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor */;
-			targetProxy = 2F7D8DDDBC77FD641F6F56CA /* PBXContainerItemProxy */;
-		};
-		9CF78BA596008B499363E65D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-			target = BBE6D37D1D8D3DBB80E6ACAC /* Pods-Tests-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor */;
-			targetProxy = D7A99199AACE097052A7AFC5 /* PBXContainerItemProxy */;
-		};
-		D12D6203607EB5AF563C93C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor";
-			target = 08375711B67C4FB945861C00 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor */;
-			targetProxy = 5E955DFE1E8B9A5184397C73 /* PBXContainerItemProxy */;
+			name = "UIAlertController-BetterConstructor";
+			target = 8968DE6A8A3A7CFA7EFE769164C96A94 /* UIAlertController-BetterConstructor */;
+			targetProxy = 7AD15676AB13CC67BBE638C2481273D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		040510D92FC4FFCA248011FD /* Release */ = {
+		0578F5322DE4FD76732E8E66587C51E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CC4FEC7F4B9D0B41144F682850F686 /* Pods-UIAlertController-BetterConstructor.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIAlertController-BetterConstructor";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		23847585C9B2764AC76D89F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A725092835315E7FACC1C4F1 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor/Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		2735B82E33D973BAAF032914 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91122A76A6F4637AFF7CFAAB /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		3A8F16674E5EE02264BA28E0 /* Release */ = {
+		25327452E14105CD26CEDA6B0B216DE6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A725092835315E7FACC1C4F1 /* Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-Private.xcconfig */;
+			baseConfigurationReference = 3D708506F32BE882F8FEBF4A2267D04A /* UIAlertController-BetterConstructor.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor/Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIAlertController-BetterConstructor/UIAlertController-BetterConstructor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		3C0E38E63C1FE51BB9A4A8C1 /* Release */ = {
+		43EDC0E4E1C692A4402D88CE10E7600E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D708506F32BE882F8FEBF4A2267D04A /* UIAlertController-BetterConstructor.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIAlertController-BetterConstructor";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		743D1EC4605E2AD78147636A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F0C9F38B6BED89567D21D49 /* Pods-Tests-UIAlertController-BetterConstructor-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UIAlertController-BetterConstructor/Pods-Tests-UIAlertController-BetterConstructor-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIAlertController-BetterConstructor/UIAlertController-BetterConstructor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C5F06928899E24386245969B0F22AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD321FC37872F24180D9730880D7732 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		7590012C7DD1A09F353F9671 /* Release */ = {
+		892C626EF44C4E8E7C522960FF0BED6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04D1FD9658F90B6F68C23808E3155E5 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1DF5D16D790F11CEA13F239461602C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -618,103 +481,22 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8068EF310A991232F2B7997C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F0C9F38B6BED89567D21D49 /* Pods-Tests-UIAlertController-BetterConstructor-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UIAlertController-BetterConstructor/Pods-Tests-UIAlertController-BetterConstructor-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		92B6D98C0E92F39D66650C3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIAlertController-BetterConstructor";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C8C6A107FBEB99CE561E1731 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 454DE0372A928FA15F5E21A7 /* Pods-UIAlertController-BetterConstructor.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D3003D557AADB03C6BA24447 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIAlertController-BetterConstructor";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		DDB07784F61245FDEAA88410 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -725,112 +507,121 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F6D56FE9942CE03910E46D9B /* Debug */ = {
+		EA0D272FA94CCB22CA5CFCC573107181 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9561794F321FB80838B3F34 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = 2C9C8075998D9F642F19EBDF3A163DA8 /* Pods-UIAlertController-BetterConstructor.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		FD83456F8D0DA75584809D6E /* Release */ = {
+		F9248D5D3503D3DE930856DB328D8ACD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FE5BA61A995CD7F88B270B7 /* Pods-UIAlertController-BetterConstructor.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		213F0156F8849EAFD74FF76D /* Build configuration list for PBXNativeTarget "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3003D557AADB03C6BA24447 /* Debug */,
-				3C0E38E63C1FE51BB9A4A8C1 /* Release */,
+				D1DF5D16D790F11CEA13F239461602C5 /* Debug */,
+				F9248D5D3503D3DE930856DB328D8ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CE84CAD88F04BFB0791BF41 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		72E4DECF52032A693EB15185986569B4 /* Build configuration list for PBXNativeTarget "Pods-UIAlertController-BetterConstructor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6D56FE9942CE03910E46D9B /* Debug */,
-				2735B82E33D973BAAF032914 /* Release */,
+				EA0D272FA94CCB22CA5CFCC573107181 /* Debug */,
+				0578F5322DE4FD76732E8E66587C51E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		655D54169D7B9EBC31A19EC2 /* Build configuration list for PBXNativeTarget "Pods-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor" */ = {
+		74E8CB4FE4FBFA0C71108CD3A8163337 /* Build configuration list for PBXNativeTarget "UIAlertController-BetterConstructor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23847585C9B2764AC76D89F3 /* Debug */,
-				3A8F16674E5EE02264BA28E0 /* Release */,
+				43EDC0E4E1C692A4402D88CE10E7600E /* Debug */,
+				25327452E14105CD26CEDA6B0B216DE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70B38389C003E96CC5600E02 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIAlertController-BetterConstructor-UIAlertController-BetterConstructor" */ = {
+		E1E44AC084A5FEFCFB932574A94558D3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92B6D98C0E92F39D66650C3A /* Debug */,
-				040510D92FC4FFCA248011FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90E45DF72A8014556B42BB04 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIAlertController-BetterConstructor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				743D1EC4605E2AD78147636A /* Debug */,
-				8068EF310A991232F2B7997C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E96495C4CDFF47B638328C1D /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDB07784F61245FDEAA88410 /* Debug */,
-				7590012C7DD1A09F353F9671 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5CB4EDD3EE3BA347BBC73DE /* Build configuration list for PBXNativeTarget "Pods-UIAlertController-BetterConstructor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8C6A107FBEB99CE561E1731 /* Debug */,
-				FD83456F8D0DA75584809D6E /* Release */,
+				5C5F06928899E24386245969B0F22AE1 /* Debug */,
+				892C626EF44C4E8E7C522960FF0BED6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 96FE443A06E1DD0049F47985 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

@@ -1,5 +1,5 @@
 PODS:
-  - UIAlertController-BetterConstructor (0.1.0)
+  - UIAlertController-BetterConstructor (0.1.1)
 
 DEPENDENCIES:
   - UIAlertController-BetterConstructor (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIAlertController-BetterConstructor: 9f834c2ae580114f19f6c48e396836346582cd0b
+  UIAlertController-BetterConstructor: 7e4c138e64d6ef0b59f1482df6a47a09fbaf46e2
 
-COCOAPODS: 0.36.3
+PODFILE CHECKSUM: d790d715a71edb569aaf0f7fe9dd17411b7bf5bc
+
+COCOAPODS: 1.2.0

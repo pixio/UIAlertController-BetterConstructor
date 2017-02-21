@@ -1,11 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'UIAlertController-BetterConstructor', :exclusive => true do
+target 'UIAlertController-BetterConstructor' do
   pod "UIAlertController-BetterConstructor", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "UIAlertController-BetterConstructor", :path => "../"
-
-  
 end
