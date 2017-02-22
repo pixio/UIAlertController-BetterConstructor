@@ -27,7 +27,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^alertHandler_t)(UIAlertAction *action);
+typedef void (^alertHandler_t)(UIAlertAction * _Nullable action);
 
 /**
  *  A category adding a shorthand constructor to prevent creating a bunch of action objects.
@@ -52,8 +52,8 @@ typedef void (^alertHandler_t)(UIAlertAction *action);
  *
  *  @return an alert controller all ready to go without all the initialization/styling hastle of actions
  */
-+ (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message style:(UIAlertControllerStyle)style cancelButtonTitle:(NSString *)cancelTitle cancelButtonBlock:(alertHandler_t)cancelBlock destructiveButtonTitle:(NSString*)destructiveTitle destructiveButtonBlock:(alertHandler_t)destructiveBlock otherButtonTitlesAndBlocks:(id)otherTitlesAndBlocks, ... NS_REQUIRES_NIL_TERMINATION;
++ (nonnull instancetype)alertControllerWithTitle:(nullable NSString *)title message:(nullable NSString *)message style:(UIAlertControllerStyle)style cancelButtonTitle:(nullable NSString *)cancelTitle cancelButtonBlock:(nullable alertHandler_t)cancelBlock destructiveButtonTitle:(nullable NSString*)destructiveTitle destructiveButtonBlock:(nullable alertHandler_t)destructiveBlock otherButtonTitlesAndBlocks:(nullable id)otherTitlesAndBlocks, ... NS_REQUIRES_NIL_TERMINATION;
 
 @end
 
-extern alertHandler_t const DisabledBlock;
+extern alertHandler_t _Nonnull const DisabledBlock;
